@@ -51,7 +51,7 @@ a:hover {
 
 #messenger {
     min-height: 6rem;
-    margin-top: 20%;
+    margin-top: 15rem;
     color: #19f9d8;
     font-size: 4rem;
     font-family: 'Major Mono Display', monospace;
@@ -135,7 +135,8 @@ a:hover {
 }
 
 #aboutme{
-    margin-top: 20rem;
+    margin-top: 28rem;
+    margin-bottom: 5rem;
 }
 .about-me-header{
     color: #19f9d8;
@@ -205,6 +206,7 @@ a:hover {
 @media (min-width: 576px) and (max-width: 767px) {
     #messenger {
         font-size: 2rem;
+        margin-top: 5rem;
     }
 
     #aboutme {
