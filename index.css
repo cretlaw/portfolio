@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css?family=Aldrich|Audiowide|Bubbler+One|Bungee+Hairline|Chakra+Petch|Electrolize|Libre+Barcode+128+Text|Libre+Barcode+39+Text|Major+Mono+Display|Megrim|Mina|Orbitron|Quantico|Rajdhani|Syncopate');
+
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
+
+body {
+    background-color: #1D1F20;
+}
+
+/* .navbar-container{
+    min-height: 50rem;
+} */
+.name {
+    color: #19f9d8;
+    font-size: 2rem;
+    font-family: 'Libre Barcode 39 Text', cursive;
+    /* font-family: 'Libre Barcode 128 Text', cursive;
+    font-family: 'Major Mono Display', monospace;
+    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Audiowide', cursive;
+    font-family: 'Electrolize', sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Syncopate', sans-serif;
+    font-family: 'Aldrich', sans-serif;
+    font-family: 'Quantico', sans-serif;
+    font-family: 'Megrim', cursive;
+    font-family: 'Bubbler One', sans-serif;
+    font-family: 'Mina', sans-serif;
+    font-family: 'Bungee Hairline', cursive;
+    font-family: 'Libre Barcode 39 Text', cursive; */
+}
+
+.navbar-nav a:after {
+    content: " | ";
+}
+
+a {
+    color: #19f9d8;
+    font-size: 1rem;
+    font-family: 'Major Mono Display', monospace;
+}
+
+a:hover {
+    color: #19f9d899;
+}
+
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%2319f9d8' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+#messenger {
+    min-height: 6rem;
+    margin-top: 20%;
+    color: #19f9d8;
+    font-size: 4rem;
+    font-family: 'Major Mono Display', monospace;
+    white-space: nowrap;
+    text-shadow: 0 2px 2px rgba(#000, 0.9);
+}
+
+
+.arrow-container {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.arrow-down {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    transform: rotate(45deg);
+}
+
+.arrow-down span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-right: 3px solid #19f9d8;
+    border-bottom: 3px solid #19f9d8;
+    animation: arrow-down 1s linear infinite;
+}
+
+.arrow-down span:nth-child(1) {
+    top: -30px;
+    left: -30px;
+    animation-delay: 0;
+}
+
+.arrow-down span:nth-child(2) {
+    top: -15px;
+    left: -15px;
+    animation-delay: .2s;
+}
+
+.arrow-down span:nth-child(3) {
+    top: 0;
+    left: 0;
+    animation-delay: .4s;
+}
+
+.arrow-down span:nth-child(4) {
+    top: 15px;
+    left: 15px;
+    animation-delay: .6s;
+}
+
+.arrow-down span:nth-child(5) {
+    top: 30px;
+    left: 30px;
+    animation-delay: .8s;
+}
+
+@keyframes arrow-down {
+    0% {
+        border-color: #19f9d8;
+        transform: translate(0, 0);
+    }
+
+    20% {
+        border-color: #19f9d8;
+        transform: translate(15px, 15px);
+    }
+
+    20.1%,
+    100% {
+        border-color: #222;
+    }
+}
+
+#aboutme{
+    margin-top: 20rem;
+}
+.about-me-header{
+    color: #19f9d8;
+    font-family: 'Electrolize', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.about-me-content{
+    color: #19f9d8;
+    font-family: 'Electrolize', sans-serif;
+    font-size: 1.2rem;
+}
+
+
+.img-circle {
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 4px;
+    background-image: url(headshot.jpg);
+    border-color: #19f9d8;
+    
+}
+
+.ratio {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 0;
+    padding-bottom: 100%;
+    position: relative;
+    width: 100%;
+}
+
+.img-responsive {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+    #messenger {
+        font-size: 1.2rem;
+    }
+
+
+    .arrow-container {
+        margin-top: 50%;
+
+    }
+    .ratio{
+        padding-bottom: 50%;
+        width:50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+    }
+
+    #aboutme {
+        margin-top: 10rem;
+    }
+    
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+    #messenger {
+        font-size: 2rem;
+    }
+
+    #aboutme {
+        margin-top: 10rem;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    #messenger {
+        font-size: 2.2rem;
+    }
+
+    .arrow-container {
+        margin-top: 30%;
+
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    #messenger {
+        font-size: 2.5rem;
+    }
+
+   
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
