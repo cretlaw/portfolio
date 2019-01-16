@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Aldrich|Audiowide|Bubbler+One|Bungee+Hairline|Chakra+Petch|Electrolize|Libre+Barcode+128+Text|Libre+Barcode+39+Text|Major+Mono+Display|Megrim|Mina|Orbitron|Quantico|Rajdhani|Syncopate');
+@import url('https://fonts.googleapis.com/css?family=Electrolize|Libre+Barcode+39+Text|Major+Mono+Display');
 
-@import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
 
 body {
     background-color: #1D1F20;
@@ -13,7 +12,7 @@ body {
     position: fixed;
     bottom: 20px;
     right: 10px;
-    z-index: 1;
+    z-index: 2;
 }
 
 .scroll {
@@ -58,21 +57,7 @@ body {
     color: #19f9d8;
     font-size: 2rem;
     font-family: 'Libre Barcode 39 Text', cursive;
-    /* font-family: 'Libre Barcode 128 Text', cursive;
-    font-family: 'Major Mono Display', monospace;
-    font-family: 'Rajdhani', sans-serif;
-    font-family: 'Orbitron', sans-serif;
-    font-family: 'Audiowide', cursive;
-    font-family: 'Electrolize', sans-serif;
-    font-family: 'Chakra Petch', sans-serif;
-    font-family: 'Syncopate', sans-serif;
-    font-family: 'Aldrich', sans-serif;
-    font-family: 'Quantico', sans-serif;
-    font-family: 'Megrim', cursive;
-    font-family: 'Bubbler One', sans-serif;
-    font-family: 'Mina', sans-serif;
-    font-family: 'Bungee Hairline', cursive;
-    font-family: 'Libre Barcode 39 Text', cursive; */
+ 
 }
 
 .name:hover {
