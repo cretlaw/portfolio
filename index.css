@@ -679,7 +679,7 @@ iframe {
     }
     .about-me-content {
        
-        font-size: 1rem;
+        font-size: 0.5rem;
     }
 
     .blog-card .description h1 {
@@ -727,6 +727,7 @@ iframe {
     #aboutme {
         margin-top: 10rem;
     }
+    
 
   
 }
