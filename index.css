@@ -74,9 +74,11 @@ body {
     font-family: 'Bungee Hairline', cursive;
     font-family: 'Libre Barcode 39 Text', cursive; */
 }
-.name:hover{
+
+.name:hover {
     color: #19f9d899;
 }
+
 .navbar-nav a:after {
     content: " | ";
 }
@@ -183,7 +185,7 @@ body {
 
 #aboutme {
     margin-top: 28rem;
- 
+    margin-bottom: 5rem;
 }
 
 .about-me-header {
@@ -228,7 +230,7 @@ body {
 
 #portfolio {
     background-color: #f1f1f1;
-    padding-bottom: 2.5rem;
+    padding-bottom: 5rem;
 }
 
 .portfolio-header {
@@ -407,156 +409,216 @@ body {
 .blog-card:hover .details {
     left: 0%;
 }
- .github{
-     font-size: 1.2rem;
-     float: left;
- }
+
+.github {
+    font-size: 1.2rem;
+    float: left;
+}
 
 
 
- .resume_header{
-    padding-top: 2.5rem;
+.resume_header {
+    padding-top: 5rem;
     margin-bottom: 5rem;
     font-family: 'Electrolize', sans-serif;
     font-size: 2.2rem;
     font-weight: bold;
-    color: #19f9d8;;
- }
+    color: #19f9d8;
+    ;
+}
 
-.resume_viewer{
+.resume_viewer {
     width: 100%;
     height: 800px;
 }
 
-iframe{
+iframe {
     border: #19f9d8;
     border-width: 4px;
     border-style: solid;
 }
 
 .fa-cloud-download-alt:before {
-  
-    color:#19f9d8;
+
+    color: #19f9d8;
     font-size: 1.5rem;
 }
-.link-text{
-   
+
+.link-text {
+
     color: #19f9d8;
     font-size: 1.5rem;
     font-family: 'Electrolize', sans-serif;
     display: inline;
 }
 
-#margins{
-    margin-top:0.8rem;
+#margins {
+    margin-top: 0.8rem;
 }
 
 
 
 .panel {
-    margin-bottom: 10rem;
+    margin-bottom: 3rem;
     margin-top: 3rem;
     box-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
     padding: 10px 23px 10px 10px;
-    background-color: #fff;
-   
+    background-color: white;
+
     border-radius: 5px;
 }
-.panel hr{
+
+.panel hr {
     border: 0;
-    border-top: 1px solid #dee2e5;
+    border-top: 1px solid #19f9d8;
     margin-bottom: 20px;
     margin-top: 20px;
     position: relative;
+
 }
 
-.panel hr:before{
-     content: '';
+.panel hr:before {
+    content: '';
     width: 30px;
     height: 4px;
-    background-color: #61d4e6;
+    background-color: #19f9d8;
     position: absolute;
     bottom: 0;
 }
 
-.panel h3{
-    color: #61d4e6;
+.panel h3 {
+    color: #19f9d8;
+    font-family: 'Electrolize', sans-serif;
+
 }
 
-.tags a{
+.tags a {
     font-size: 15px;
     text-decoration: none;
+    font-family: 'Electrolize', sans-serif;
+
 }
 
-.tags span{
+.tags span {
     display: inline-block;
     margin-bottom: 5px;
 }
 
-.tags .tag{
-   border: 1px solid #dee2e5;
-   background-color: #dee2e5;
-   border-radius: 5px;
-   padding: 6px 15px;
-   color: #a9b1b5;
-   transition: all 300ms ease-in-out;
+.tags .tag {
+    border: 1px solid #dee2e5;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    padding: 6px 15px;
+    color: #a9b1b5;
+    transition: all 300ms ease-in-out;
 }
 
-.tags .tag:hover{
-     color: #fff;
-     background-color: #63d3e1;
+.tags .tag:hover {
+    color: #fff;
+    background-color: #19f9d8;
+    ;
 }
 
-.tags .tag--inverse{
-     background-color: #fbfbfb;
-     border: 1px solid #a9b1b5;
-     padding: 6px 15px;
-     color: #a9b1b5;
-     border-radius: 5px;
-     transition: all 300ms ease-in-out;
+.tags .tag--inverse {
+    background-color: #fbfbfb;
+    border: 1px solid #a9b1b5;
+    padding: 6px 15px;
+    color: #a9b1b5;
+    border-radius: 5px;
+    transition: all 300ms ease-in-out;
 }
 
-.tags .tag--inverse:hover{
-     border: 1px solid #63d3e1;
-     color: #63d3e1;
+.tags .tag--inverse:hover {
+    border: 1px solid #63d3e1;
+    color: #63d3e1;
 }
 
-.tags .tag-rounded{
-     border: 1px solid #dee2e5;
-     background-color: #dee2e5;
-     border-radius: 25px;
-     padding: 6px 15px;
-     color: #a9b1b5;
-     transition: all 300ms ease-in-out;
+.tags .tag-rounded {
+    border: 1px solid #dee2e5;
+    background-color: #dee2e5;
+    border-radius: 25px;
+    padding: 6px 15px;
+    color: #a9b1b5;
+    transition: all 300ms ease-in-out;
 }
 
-.tags .tag-rounded:hover{
-     color: #fff;
-     background-color: #63d3e1;
+.tags .tag-rounded:hover {
+    color: #fff;
+    background-color: #63d3e1;
 }
 
-.tags .tag-rounded--inverse{
-     border: 1px solid #a9b1b5;
-     background-color: #fbfbfb;
-     border-radius: 25px;
-     padding: 6px 15px;
-     color: #a9b1b5;
-     transition: all 300ms ease-in-out;
+.tags .tag-rounded--inverse {
+    border: 1px solid #a9b1b5;
+    background-color: #fbfbfb;
+    border-radius: 25px;
+    padding: 6px 15px;
+    color: #a9b1b5;
+    transition: all 300ms ease-in-out;
 }
 
-.tags .tag-rounded--inverse:hover{
-     border: 1px solid #63d3e1;
-     color: #63d3e1;
+.tags .tag-rounded--inverse:hover {
+    border: 1px solid #63d3e1;
+    color: #63d3e1;
+}
+
+.social-media-buttons {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.social-media-button {
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
+    border: 2px solid #19f9d8;
+    border-radius: 100%;
+    position: relative;
+    margin: 1rem .5rem;
+    cursor: pointer;
+    transition: border-radius .25s, transform .5s, border-color 1s;
+}
+
+.social-media-button i {
+    color: #19f9d8;
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: color .5s;
+}
+
+.social-media-button:hover {
+    border-radius: 10%;
+    border-color: #222;
+    transform: rotate(360deg);
+}
+
+.social-media-button.email:hover i {
+    color: whitesmoke;
+}
+
+.social-media-button.linkein:hover i {
+    color: #3b5998;
+}
+
+.social-media-button.github-footer:hover i {
+    color: #6e5494;
+}
+
+.social-media-button.facebook:hover i {
+
+    color: #0e4dd6;
+}
+
+.copyright {
+    font-family: 'Electrolize', sans-serif;
+    font-size: 1rem;
+    color: #19f9d8
 }
 
 
-.vertical-align {
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    flex-direction: row;
-  }
-  
+
 
 @media (min-width: 640px) {
     .blog-card {
@@ -626,6 +688,48 @@ iframe{
         margin-top: 10rem;
     }
 
+    .about-me-header {
+        font-size: 1.3rem;
+      
+    }
+    .about-me-content {
+       
+        font-size: 1rem;
+    }
+
+    .blog-card .description h1 {
+        
+        font-size: 1.3rem;
+    }
+
+    .blog-card .description h2 {
+        font-size: 0.9rem;
+    }
+    
+    .blog-card p {
+        font-size: 0.8rem;
+    }
+
+    .fa-cloud-download-alt:before {
+        font-size: 1.3rem;
+    }
+    .link-text {
+        font-size: 1.3rem;
+    }
+
+    .panel h3 {
+        font-size: 1.5rem;
+    }
+
+    .tags span {
+        font-size: 0.6rem;
+      
+    }
+    .social-media-button {
+        width: 3rem;
+        height: 3rem;
+    }
+
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -639,6 +743,7 @@ iframe{
         margin-top: 10rem;
     }
 
+  
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -651,6 +756,7 @@ iframe{
         margin-top: 30%;
 
     }
+
 }
 
 /* Large devices (desktops, 992px and up) */
